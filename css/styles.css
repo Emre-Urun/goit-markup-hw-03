@@ -210,6 +210,11 @@ h2 {
 }
 .list-border {
   border-bottom: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+}
+.four-field .list-border {
+  width: calc((100% - 48px) / 3);
 }
 /* (Portfolio) kısmının olduğu kod burada bitiyor */
 /* Son kısmın (footer) olduğu kod burada başlıyor */
